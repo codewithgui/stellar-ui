@@ -7,6 +7,11 @@
   padding: 0;
 }
 
+:root {
+  --cursor-default: url('assets/icons/cursor-default.png') 20 8, auto;
+  --cursor-pointer: url('assets/icons/cursor-pointer.png') 20 2, pointer;
+}
+
 html {
   scrollbar-width: auto;
   scrollbar-color: #5f6dff #0f1328;
@@ -35,6 +40,21 @@ body {
   font-family: 'Inter', Arial, sans-serif;
   background: #050510;
   color: #e5e7eb;
+  cursor: var(--cursor-default);
+}
+
+a,
+button,
+label,
+summary,
+select,
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+input[type='checkbox'],
+input[type='radio'],
+[role='button'] {
+  cursor: var(--cursor-pointer);
 }
 
 .site-wrapper {
@@ -97,7 +117,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.28rem;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
 }
 
 .site-header__menu-toggle-line {
@@ -195,7 +215,7 @@ body {
   color: #fff;
   font-weight: 600;
   font-size: 0.9rem;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
   box-shadow: 0 2px 16px 0 #6d28d955;
   transition:
     opacity 0.2s,
@@ -250,7 +270,7 @@ body {
   color: #fff;
   font-size: 2rem;
   line-height: 1;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
 }
 
 .mobile-sidebar__search {
@@ -322,7 +342,7 @@ body {
   color: #fff;
   font-weight: 700;
   font-size: 1rem;
-  cursor: pointer;
+  cursor: var(--cursor-pointer);
 }
 
 body.sidebar-open {
