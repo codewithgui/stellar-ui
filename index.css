@@ -28,7 +28,7 @@ html::-webkit-scrollbar-track {
 
 html::-webkit-scrollbar-thumb {
   background: linear-gradient(180deg, #6d28d9 0%, #38bdf8 100%);
-  border-radius: 999px;
+  border-radius: 100px;
   border: 2px solid #0f1328;
 }
 
@@ -124,7 +124,7 @@ input[type='radio'],
   width: 1.2rem;
   height: 2px;
   background: #fff;
-  border-radius: 999px;
+  border-radius: 100px;
 }
 
 .site-header__menu {
