@@ -6,7 +6,7 @@ A space-themed landing page built with plain HTML, CSS, and JavaScript. It mixes
 
 ### Desktop
 
-![Desktop preview](assets/readme/stellar-ui-desktop.gif)
+![Desktop preview](assets/readme/stellar-ui-desktop-view.png)
 
 ### Mobile
 
