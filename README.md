@@ -12,6 +12,10 @@ A space-themed landing page built with plain HTML, CSS, and JavaScript. It mixes
 
 ![Mobile preview](assets/readme/stellar-ui-mobile.gif)
 
+## 🌐 Live demo
+
+Try it here: [Stellar UI Landing Page.](https://stellar-ui-mission.vercel.app/)
+
 ## What’s inside
 
 - Responsive header with desktop navigation and a mobile sidebar menu
